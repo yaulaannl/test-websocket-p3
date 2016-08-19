@@ -1,0 +1,44 @@
+
+<!-- device identification header -->
+<meta http-equiv="device" content="panel">
+
+<script>
+
+var host = location.href.replace(/^http/, 'ws')
+var ws = new WebSocket(host);
+ws.onmessage = function (event) {
+    document.getElementById('myDiv1').innerHTML += event.data + '<br>'; 
+};
+
+ ws.onconnection = function (event) {
+    ws.send('something');
+}; 
+
+
+</script>
+
+
+
+<input id="myIn1" type=text value=E ><input type=button value=send onclick="{
+   ws.send(document.all.myIn1.value)
+}"><br>
+
+<input id="myOn" type=button value="send D7-ON = A" onclick="{
+   ws.send('A')
+}">...
+
+<input id="myOff"  type=button value="send D7-OFF = B" onclick="{
+   ws.send('B')
+}"><br><br><br><br>
+
+<input type=button value="mouseover D7-ON = A" onMouseOver="{
+   ws.send('A')
+}">...
+
+<input type=button value="mouseover D7-OFF = B" onMouseOver="{
+   ws.send('B')
+}"><br>
+
+
+<h1>Responses:</h1>
+<div id="myDiv1">  here<br>  </div>
