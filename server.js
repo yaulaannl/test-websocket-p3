@@ -60,17 +60,16 @@ exp.use(express.static(
 ));
 
 /* Alan: session and passport session */
-/*
 exp.use(session({
            secret: authentication.mySecret,
            resave: false,
            saveUninitialized: false
 }));
-*/
-  /*Alan: use passport authentication */
-  //exp.use(passport.initialize());
-  //exp.use(passport.session());
-  //authentication.init(exp);
+
+/*Alan: use passport authentication */
+exp.use(passport.initialize());
+exp.use(passport.session());
+authentication.init(exp);
 
 
 /**** error handler ****/
@@ -101,8 +100,49 @@ exp.use(function(err, req, res, next) {
  *
  */
 exp.get('/', index.home);  //home
+/*login and authentication*/
+exp.get('/login', index.login);
+exp.post('/login', function (req,res,next){
+        passport.authenticate('local', function(err,user,info) {
+                if (err){
+                        return next(err);
+                }else if (!user){
+                        return res.redirect('/login');
+                }else{
+                        req.logIn(user, function (err){
+                                if(err){
+                                        return next(err);
+                                }
+                                var redirectTo = req.session.redirectTo ? req.session.redirectTo : '/login';
+                                delete req.session.redirectTo;
+                                res.redirect(redirectTo);
 
-/**** 404 handler ****/
+                        });
+                }
+
+        })(req,res,next);
+});
+
+//protect all endpoints except home and login
+exp.all('*', function(req,res,next){
+        //non authenticated routes
+        //home and login
+        if(req.url === '/' || req.url === '/login') return next();
+
+        console.log(req.session);
+        if (req.isAuthenticated()) {
+                console.log('is authenticated');
+                return next();
+        }
+        //remembering current path
+        req.session.redirectTo = req.path;
+        res.redirect('/login');
+
+});
+
+
+
+/**** 404 handler. Must be after the routes ****/
 exp.use(function(req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;

@@ -5,3 +5,8 @@ exports.home = function(req, res) {
   });
 };
 
+exports.login = function(req, res) {
+  res.render('login', {
+    title: 'always absent.'
+  });
+};
