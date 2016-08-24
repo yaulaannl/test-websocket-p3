@@ -1,4 +1,5 @@
 module.exports = {
   init: require('./init'),
-  mySecret: "secretysecret"
+  mySecret: "secretysecret",
+  apiKeys: ['31415926','27182818']
 }

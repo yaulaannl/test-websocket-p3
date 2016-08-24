@@ -99,7 +99,6 @@ exp.use(function(err, req, res, next) {
  * Adding routes
  *
  */
-exp.get('/', index.home);  //home
 /*login and authentication*/
 exp.get('/login', index.login);
 exp.post('/login', function (req,res,next){
@@ -140,6 +139,8 @@ exp.all('*', function(req,res,next){
 
 });
 
+exp.get('/', index.home);  //home
+exp.get('/panel', index.panel.bind(this));  //home
 
 
 /**** 404 handler. Must be after the routes ****/
@@ -156,11 +157,23 @@ Starting http and ws server
 
 */
 var port = process.env.PORT || 8081;
-var server = http.createServer(exp)
-server.listen(port)
-console.log("http server listening on %d", port)
-var wss = new WebSocketServer({server: server})
-console.log("websocket server created")
+var server = http.createServer(exp);
+server.listen(port);
+console.log("http server listening on %d", port);
+
+/* setting websocket options*/
+var webSockOpts = 
+  {	server: server,
+	verifyClient: function(info){
+		var question = url.parse(info.req.url, true, true);
+		//1. verify keys
+		var apiKey = question.query.API_KEY;
+		return contains(apiKey, authentication.apiKeys);
+	}
+  };
+	  
+var wss = new WebSocketServer(webSockOpts);
+console.log("websocket server created");
 
 
 /*
@@ -196,7 +209,7 @@ wss.on("connection", function(ws) {
      
   
   
-  console.log("websocket connection open to device: " + device );
+  console.log("websocket connection open to device: " + loc );
   console.log(ws.upgradeReq.headers);
   
   ws.on('message', function(message) {
@@ -214,3 +227,15 @@ wss.on("connection", function(ws) {
   
   
 })  // end wss.on
+
+
+/* helper functions */
+function contains(key,keyA){
+	var len1 = keyA.length;
+	for(var i = 0; i < len1; i++ ){
+		if(key === keyA[i]) return true;
+	}
+	return false;
+			
+}
+

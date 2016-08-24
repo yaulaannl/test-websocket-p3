@@ -1,0 +1,33 @@
+<script>
+
+var host = location.href.replace(/^http/, 'ws') + '?API_KEY=31415926';
+var ws = new WebSocket(host);
+
+//receiving messages
+ws.onmessage = function (event) {
+    document.getElementById('myDiv1').innerHTML += event.data + '<br>';
+};
+
+
+ws.onconnection = function (event) {
+    ws.send('something');
+};
+
+</script>
+
+<!-- change to dynamic --> 
+
+<input id="myOn" type=button value="send D7-ON = A" onclick="{
+   ws.send('A')
+}">...
+
+<input id="myOff"  type=button value="send D7-OFF = B" onclick="{
+   ws.send('B')
+}">
+
+
+<h1>Responses:</h1>
+<div id="myDiv1">  here<br>  </div>
+
+
+
