@@ -15,26 +15,15 @@ exports.login = function(req, res) {
 };
 
 
-exports.panel = function(req, res, next) {
-  //validate panelKey
-  /*
-  error = Err.bind(this, next) 
-  if(req.params['panelKey'] !== panelKey){
-	  return error(404,'panel key not correct.');
-  }	  
-  */
-  res.render('panel', {
-    title: 'always absent.'
-  });
+exports.panel = function(devices){
+  return  function(req, res, next) {
+  
+  	//console.log('test devices at routes/index.js:' + devices );
+  
+  	res.render('panel', {
+    		title: 'always absent.',
+		devices: devices
+  	});
+  };
 };
 
-
-/* exported Err */
-function Err(next, status, message) {
-
-	  var err = new Error(message);
-	    err.status = status;
-
-	      return next(err);
-
-}

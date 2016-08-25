@@ -5,9 +5,8 @@ var ws = new WebSocket(host);
 
 //receiving messages
 ws.onmessage = function (event) {
-    document.getElementById('myDiv1').innerHTML += event.data + '<br>';
+    document.getElementById('raw-responses').innerHTML += event.data + '<br>';
 };
-
 
 ws.onconnection = function (event) {
     ws.send('something');
@@ -15,8 +14,9 @@ ws.onconnection = function (event) {
 
 </script>
 
-<!-- change to dynamic --> 
+<h1>Connected Devices</h1>
 
+<!-- just for test --> 
 <input id="myOn" type=button value="send D7-ON = A" onclick="{
    ws.send('A')
 }">...
@@ -25,9 +25,19 @@ ws.onconnection = function (event) {
    ws.send('B')
 }">
 
+<!-- showing devices -->
+{{#if devices }}
+	<ul>
+	{{#each devices}}
+		<li>
+			<input id="device-{{this}}" type=button value="Device {{this}}" onclick="{ ws.send('{{this}}')}"> 
+		</li>		
+	{{/each}}
+	</ul>	
+{{/if}}
 
 <h1>Responses:</h1>
-<div id="myDiv1">  here<br>  </div>
+<div id="raw-responses">  here<br>  </div>
 
 
 

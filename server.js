@@ -11,6 +11,11 @@ var express = require('express'),
   session = require('express-session'),
   authentication = require('./authentication');
 
+/* websocket connection group */
+var devices = [];
+var panels = [];
+
+
 /**** helpers ****/
 var handlebars = require('./helpers/handlebars');
 
@@ -140,7 +145,7 @@ exp.all('*', function(req,res,next){
 });
 
 exp.get('/', index.home);  //home
-exp.get('/panel', index.panel.bind(this));  //home
+exp.get('/panel', index.panel(devices));  //home
 
 
 /**** 404 handler. Must be after the routes ****/
@@ -181,55 +186,99 @@ console.log("websocket server created");
 Setting ws server callbacks
 
 */
-wss.myBroadcast = function(data) {
-  for (var i in this.clients){
-     this.clients[i].send(data);
+wss.myBroadcast = function(data, group) {
+  for(var i = 0; i < group.length; i++){
+     this.clients[group[i]].send(data);
      console.log('sent to client[' + i + '] ' + data);
   }
 };
 
 
+/*device command*/
+var cmdMeasure = "Hola!";
+
 wss.on("connection", function(ws) {
 
-  //get url
+  //get client properties upon connection
   var loc = ws.upgradeReq.url; 
-  var query  = url.parse(loc ,true).query;
-  var device = query.device;
-  //var device = ws.upgradeReq.headers.device;
+  var parse1  = url.parse(loc ,true);
+  var pathname = parse1.pathname.split("/");
+  var lastpath = pathname[pathname.length - 1];
 
-  //constantlu pinging clients
-  /*
-  var id = setInterval(function() {
-      console.log("send ping: C")
-      //ws.send(JSON.stringify(new Date()), function() {  })
-      ws.send("C",function() {  })
-    
-  }, 12000);
-  */ 
-     
+  console.log("websocket connection open to device: " + lastpath );
+ 
+  //if device
+  if(lastpath === "device"){
+	//get id
+	var did = wss.clients.indexOf(ws);
+	console.log("connected device id: " + did);
+	if(did != -1){
+		devices.push(did);
+	}
+  }
+
+  //if panel
+  if(lastpath === "panel"){
+	//get id
+	var pid = wss.clients.indexOf(ws);
+	console.log("connected panel id: " + pid);
+	if(pid != -1){
+		panels.push(pid);
+	}
+  }
   
-  
-  console.log("websocket connection open to device: " + loc );
-  console.log(ws.upgradeReq.headers);
-  
+	 
+  //when receiving message  
   ws.on('message', function(message) {
       console.log('received: %s', message);
-      //make decision based on device parameter
-      if( device === 'panel')	wss.myBroadcast(message);
-      if( device === 'photon')  console.log("received " + message + " from photon");   
+      //case panel
+      if(lastpath === 'panel'){
+		var idx = parseInt(message);
+		//check 
+		if(isNaN(idx)) return;
+	        var client = wss.clients[idx];
+		if(client == null) return;	
+		wss.clients[idx].send(cmdMeasure);
+		//echo
+		var oidx = wss.clients.indexOf(ws);
+		var echo = 'Panel #' + oidx + " sends to device #" + idx;
+		wss.myBroadcast(echo,panels);
+      }
+
+      if(lastpath === 'device'){
+		wss.myBroadcast(message,panels);
+	      
+      }
   });  
         
 
+  //when a device closes
   ws.on("close", function() {
-     console.log("websocket connection close")
-     clearInterval(id)
-  })
+     console.log("websocket connection close");
+     //remove from list
+    var did = wss.clients.indexOf(ws);
+    console.log("removing device id: " + did);
+    if(did != -1 && lastpath === 'device' ){
+	devices.splice(did,1);
+    }
+    if(did != -1 && lastpath === 'panel' ){
+	panels.splice(did,1);
+    }
+
+
+	    
+  });
   
   
 })  // end wss.on
 
 
-/* helper functions */
+/* 
+ *
+ * helper functions 
+ *
+ *
+ * */
 function contains(key,keyA){
 	var len1 = keyA.length;
 	for(var i = 0; i < len1; i++ ){
