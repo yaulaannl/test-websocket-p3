@@ -204,26 +204,25 @@ wss.on("connection", function(ws) {
   var parse1  = url.parse(loc ,true);
   var pathname = parse1.pathname.split("/");
   var lastpath = pathname[pathname.length - 1];
+  var myId = wss.clients.indexOf(ws);
 
   console.log("websocket connection open to device: " + lastpath );
  
   //if device
   if(lastpath === "device"){
 	//get id
-	var did = wss.clients.indexOf(ws);
-	console.log("connected device id: " + did);
-	if(did != -1){
-		devices.push(did);
+	console.log("connected device id: " + myId);
+	if(myId != -1){
+		devices.push(myId);
 	}
   }
 
   //if panel
   if(lastpath === "panel"){
 	//get id
-	var pid = wss.clients.indexOf(ws);
-	console.log("connected panel id: " + pid);
-	if(pid != -1){
-		panels.push(pid);
+	console.log("connected panel id: " + myId);
+	if(myId != -1){
+		panels.push(myId);
 	}
   }
   
@@ -239,9 +238,7 @@ wss.on("connection", function(ws) {
 	        var client = wss.clients[idx];
 		if(client == null) return;	
 		wss.clients[idx].send(cmdMeasure);
-		//echo
-		var oidx = wss.clients.indexOf(ws);
-		var echo = 'Panel #' + oidx + " sends to device #" + idx;
+		var echo = 'Panel #' + myId + " sends to device #" + idx;
 		wss.myBroadcast(echo,panels);
       }
 
@@ -254,15 +251,18 @@ wss.on("connection", function(ws) {
 
   //when a device closes
   ws.on("close", function() {
-     console.log("websocket connection close");
-     //remove from list
-    var did = wss.clients.indexOf(ws);
-    console.log("removing device id: " + did);
-    if(did != -1 && lastpath === 'device' ){
+    console.log("websocket connection close");
+    if(myId != -1 && lastpath === 'device' ){
+        console.log("removing device id: " + myId);
+	var did = devices.indexOf(myId);    
 	devices.splice(did,1);
     }
-    if(did != -1 && lastpath === 'panel' ){
+    if(myId != -1 && lastpath === 'panel' ){
+        console.log("removing panel id: " + myId);
+	var did = panels.indexOf(myId);
 	panels.splice(did,1);
+	console.log('panels list update: ' + panels);
+	console.log('devices list update: ' + devices);
     }
 
 
