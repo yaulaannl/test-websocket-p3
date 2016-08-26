@@ -3,7 +3,7 @@
 Alan's hack:
 Phase1: make it work on AWS
 Phase2: make the device talks back
-Phase3: add some securities 
+Phase3: add authorization. Separate control webpage and devices.  
 
 # Sources
 
