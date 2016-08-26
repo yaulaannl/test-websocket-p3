@@ -1,7 +1,0 @@
-node_modules
-third_party
-bower_components
-*.swo
-*.swp
-
-./authentication/*
