@@ -17,12 +17,12 @@ exports.login = function(req, res) {
 
 exports.panel = function(devices){
   return  function(req, res, next) {
-  
-  	//console.log('test devices at routes/index.js:' + devices );
+	var dkeys = Object.keys(devices);  
+  	console.log('test devices at routes/index.js:' + dkeys );
   
   	res.render('panel', {
     		title: 'always absent.',
-		devices: devices
+		devices: dkeys
   	});
   };
 };

@@ -9,11 +9,12 @@ var express = require('express'),
   exphbs = require('express-handlebars'),
   passport = require('passport'),
   session = require('express-session'),
+  keygen = require('keygenerator'),
   authentication = require('./authentication');
 
 /* websocket connection group */
-var devices = [];
-var panels = [];
+var devices = new Object();
+var panels  = new Object();
 
 
 /**** helpers ****/
@@ -145,7 +146,7 @@ exp.all('*', function(req,res,next){
 });
 
 exp.get('/', index.home);  //home
-exp.get('/panel', index.panel(devices));  //home
+exp.get('/panel', index.panel(devices) );  //home
 
 
 /**** 404 handler. Must be after the routes ****/
@@ -187,15 +188,15 @@ Setting ws server callbacks
 
 */
 wss.myBroadcast = function(data, group) {
-  for(var i = 0; i < group.length; i++){
-     this.clients[group[i]].send(data);
-     console.log('sent to client[' + i + '] ' + data);
+  for(key in group){
+     group[key].send(data);
+     console.log('sent to client with key: ' + key + " , data: "  + data);
   }
 };
 
 
 /*device command*/
-var cmdMeasure = "Hola!";
+var cmdMeasure = 'cmd_key=' +  authentication.cmdKey + ':0';
 
 wss.on("connection", function(ws) {
 
@@ -204,7 +205,7 @@ wss.on("connection", function(ws) {
   var parse1  = url.parse(loc ,true);
   var pathname = parse1.pathname.split("/");
   var lastpath = pathname[pathname.length - 1];
-  var myId = wss.clients.indexOf(ws);
+  var myId = keygen._(); //generate unique random key
 
   console.log("websocket connection open to device: " + lastpath );
  
@@ -212,33 +213,44 @@ wss.on("connection", function(ws) {
   if(lastpath === "device"){
 	//get id
 	console.log("connected device id: " + myId);
-	if(myId != -1){
-		devices.push(myId);
-	}
+	devices[myId] = ws;
+	console.log("test device key: " + Object.keys(devices));
   }
 
   //if panel
   if(lastpath === "panel"){
 	//get id
 	console.log("connected panel id: " + myId);
-	if(myId != -1){
-		panels.push(myId);
-	}
+	panels[myId] = ws;
   }
   
+  //when a device closes
+  ws.on("close", function() {
+    console.log("websocket connection close");
+    if(lastpath === 'device' ){
+        console.log("removing device id: " + myId);
+	if(myId in devices) delete devices[myId];		
+    }
+    if(lastpath === 'panel' ){
+        console.log("removing panel id: " + myId);
+	if(myId in panels) delete panels[myId];		
+	console.log('panels list update: ' + panels);
+    }
+  });
 	 
   //when receiving message  
   ws.on('message', function(message) {
       console.log('received: %s', message);
       //case panel
       if(lastpath === 'panel'){
-		var idx = parseInt(message);
-		//check 
-		if(isNaN(idx)) return;
-	        var client = wss.clients[idx];
-		if(client == null) return;	
-		wss.clients[idx].send(cmdMeasure);
-		var echo = 'Panel #' + myId + " sends to device #" + idx;
+		if(message in devices){
+		       	devices[message].send(cmdMeasure + "\r\n");
+			console.log("send command: " + cmdMeasure);
+			var echo = 'Panel #' + myId + " sends to device #" + message;
+		}
+		else{
+			var echo = "Device #" + message +  " not found!."; 
+		}
 		wss.myBroadcast(echo,panels);
       }
 
@@ -249,25 +261,6 @@ wss.on("connection", function(ws) {
   });  
         
 
-  //when a device closes
-  ws.on("close", function() {
-    console.log("websocket connection close");
-    if(myId != -1 && lastpath === 'device' ){
-        console.log("removing device id: " + myId);
-	var did = devices.indexOf(myId);    
-	devices.splice(did,1);
-    }
-    if(myId != -1 && lastpath === 'panel' ){
-        console.log("removing panel id: " + myId);
-	var did = panels.indexOf(myId);
-	panels.splice(did,1);
-	console.log('panels list update: ' + panels);
-	console.log('devices list update: ' + devices);
-    }
-
-
-	    
-  });
   
   
 })  // end wss.on
@@ -287,4 +280,5 @@ function contains(key,keyA){
 	return false;
 			
 }
+
 
