@@ -1,5 +1,5 @@
 //for authentication
-panelKey = require('../authentication').panelKey;
+apiKey = require('../authentication').apiKeys[0];
 
 //home page
 exports.home = function(req, res) {
@@ -22,7 +22,8 @@ exports.panel = function(devices){
   
   	res.render('panel', {
     		title: 'always absent.',
-		devices: dkeys
+		devices: dkeys,
+		apiKey: apiKey
   	});
   };
 };

@@ -1,0 +1,23 @@
+body{
+}
+
+.navbar-brand{
+  font-size: 32px;
+}
+
+footer {
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 24px;
+}
+
+.panel-devices {
+  min-height: 200px;
+}
+
+.panel-responses {
+  min-height: 200px;
+  border-style: solid;
+  border-width: 3px;
+}

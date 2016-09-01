@@ -1,6 +1,6 @@
 <script>
 
-var host = location.href.replace(/^http/, 'ws') + '?API_KEY=31415926';
+var host = location.href.replace(/^http/, 'ws') + '?API_KEY={{apiKey}}';
 var ws = new WebSocket(host);
 
 //receiving messages
@@ -14,30 +14,32 @@ ws.onconnection = function (event) {
 
 </script>
 
-<h1>Connected Devices</h1>
+  <section id="my-panel">
 
-<!-- just for test --> 
-<input id="myOn" type=button value="send D7-ON = A" onclick="{
-   ws.send('A')
-}">...
+	<div class="container">
+		<div class="panel-devices">
+			<h1>Connected Devices</h1>
 
-<input id="myOff"  type=button value="send D7-OFF = B" onclick="{
-   ws.send('B')
-}">
+		<!-- showing devices -->
+		{{#if devices }}
+			<ul>
+			{{#each devices}}
+				<li>
+					<input type="button" class="btn btn-info" id="device-{{this}}" type=button value="Device:  {{this}}" onclick="{ ws.send('{{this}}')}"> 
+				</li>		
+			{{/each}}
+			</ul>	
+		{{else}}
+			<h2>No Connected Devices</h2>
+		{{/if}}
+		</div>
 
-<!-- showing devices -->
-{{#if devices }}
-	<ul>
-	{{#each devices}}
-		<li>
-			<input id="device-{{this}}" type=button value="Device {{this}}" onclick="{ ws.send('{{this}}')}"> 
-		</li>		
-	{{/each}}
-	</ul>	
-{{/if}}
-
-<h1>Responses:</h1>
-<div id="raw-responses">  here<br>  </div>
+		<div class="panel-responses">
+			<h1>Responses:</h1>
+			<div id="raw-responses">
+			</div>
+		</div>
+	</div>
 
 
-
+  </section>
