@@ -1,0 +1,105 @@
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: gaufAxfq13WmsgoVDlIt55Iom0N4hYNu
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: gaufAxfq13WmsgoVDlIt55Iom0N4hYNu
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: D05V30qh6cZHffFcdJbeHPrgkTm5EOG5
+websocket connection close
+removing panel id: D05V30qh6cZHffFcdJbeHPrgkTm5EOG5
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: PbiUq1gAw85yJPWJ5QzJcp2wzNaSqKsA
+websocket connection close
+removing panel id: PbiUq1gAw85yJPWJ5QzJcp2wzNaSqKsA
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: wC984XtQ9RXSBwnPRuv3RnancE5p9pWh
+websocket connection close
+removing panel id: wC984XtQ9RXSBwnPRuv3RnancE5p9pWh
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: NsYkTqGKvoL6K8Kl4kIeiJ03tiUY6afE
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: NsYkTqGKvoL6K8Kl4kIeiJ03tiUY6afE
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: tlG8ruC1o8XHf3eawxToxetD5WIDyHur
+websocket connection close
+removing panel id: tlG8ruC1o8XHf3eawxToxetD5WIDyHur
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: tUcqF59Mz89T3XpKEOGlrBu7ifGtZQhx
+websocket connection open to device: device
+connected device id: uX1akEi05NjH1bkNY5Hv3IBIYuEHJoCR
+test device key: uX1akEi05NjH1bkNY5Hv3IBIYuEHJoCR
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:uX1akEi05NjH1bkNY5Hv3IBIYuEHJoCR
+websocket connection open to device: panel
+connected panel id: HNQDhY0GBmTN7DoMa8bePsz5cmJq92QQ

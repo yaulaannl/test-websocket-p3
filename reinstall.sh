@@ -1,4 +1,4 @@
 #! /bin/bash
 npm uninstall wstest-p3 
 npm install
-npm start &
+sudo nohup npm start &

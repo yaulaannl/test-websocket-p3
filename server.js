@@ -196,7 +196,7 @@ wss.myBroadcast = function(data, group) {
 
 
 /*device command*/
-var cmdMeasure = 'cmd_key=' +  authentication.cmdKey + ':0';
+var cmdMeasure = 'cmd_key=' +  authentication.cmdKey;
 
 wss.on("connection", function(ws) {
 
@@ -243,9 +243,13 @@ wss.on("connection", function(ws) {
       console.log('received: %s', message);
       //case panel
       if(lastpath === 'panel'){
-		if(message in devices){
-		       	devices[message].send(cmdMeasure + "\r\n");
-			console.log("send command: " + cmdMeasure);
+		//parse message
+		var myDev = message.split(':')[0];
+		var cmdNo = message.split(':')[1];
+		if(myDev in devices){
+			var dCommand = cmdMeasure + ':' + cmdNo + "\r\n");
+		       	devices[myDev].send(dCommand);
+			console.log("send command: " + dCommand);
 			var echo = 'Panel #' + myId + " sends to device #" + message;
 		}
 		else{
