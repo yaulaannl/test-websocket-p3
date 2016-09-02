@@ -247,7 +247,7 @@ wss.on("connection", function(ws) {
 		var myDev = message.split(':')[0];
 		var cmdNo = message.split(':')[1];
 		if(myDev in devices){
-			var dCommand = cmdMeasure + ':' + cmdNo + "\r\n");
+			var dCommand = cmdMeasure + ':' + cmdNo + "\r\n";
 		       	devices[myDev].send(dCommand);
 			console.log("send command: " + dCommand);
 			var echo = 'Panel #' + myId + " sends to device #" + message;

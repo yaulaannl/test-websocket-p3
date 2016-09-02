@@ -106,3 +106,116 @@ connected panel id: HNQDhY0GBmTN7DoMa8bePsz5cmJq92QQ
 websocket connection close
 removing panel id: tUcqF59Mz89T3XpKEOGlrBu7ifGtZQhx
 panels list update: [object Object]
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+
+/var/www/photon/webocket-hack-p3/server.js:250
+			var dCommand = cmdMeasure + ':' + cmdNo + "\r\n");
+			                                                ^
+SyntaxError: Unexpected token )
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 8
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+websocket connection open to device: device
+connected device id: lbjIRNCDKQVAYG48KeW5Ed6LIfBI3bYV
+test device key: lbjIRNCDKQVAYG48KeW5Ed6LIfBI3bYV
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:lbjIRNCDKQVAYG48KeW5Ed6LIfBI3bYV
+websocket connection open to device: panel
+connected panel id: nrqCuFaNfh4X92POTuxxk8KgbM6yZp3l
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:lbjIRNCDKQVAYG48KeW5Ed6LIfBI3bYV
+websocket connection close
+removing panel id: nrqCuFaNfh4X92POTuxxk8KgbM6yZp3l
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: BQasoYwJ0NzOnHN8JyA4SxQIz2XSkgwV
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:lbjIRNCDKQVAYG48KeW5Ed6LIfBI3bYV
+websocket connection close
+removing panel id: BQasoYwJ0NzOnHN8JyA4SxQIz2XSkgwV
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: Fv0ZgwAVvRlS0nxJfqXxACggfrefLFZv
