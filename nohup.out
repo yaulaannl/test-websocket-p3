@@ -103,3 +103,6 @@ is authenticated
 test devices at routes/index.js:uX1akEi05NjH1bkNY5Hv3IBIYuEHJoCR
 websocket connection open to device: panel
 connected panel id: HNQDhY0GBmTN7DoMa8bePsz5cmJq92QQ
+websocket connection close
+removing panel id: tUcqF59Mz89T3XpKEOGlrBu7ifGtZQhx
+panels list update: [object Object]

@@ -16,6 +16,16 @@ footer {
   min-height: 200px;
 }
 
+.panel-devices ul{
+  list-style: none;
+}
+
+.panel-devices li{
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px 5px;
+}
+
 .panel-responses {
   min-height: 200px;
   border-style: solid;

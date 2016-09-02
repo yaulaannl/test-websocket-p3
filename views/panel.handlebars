@@ -25,7 +25,9 @@ ws.onconnection = function (event) {
 			<ul>
 			{{#each devices}}
 				<li>
-					<input type="button" class="btn btn-info" id="device-{{this}}" type=button value="Device:  {{this}}" onclick="{ ws.send('{{this}}')}"> 
+					Device: {{this}}
+					<input type="button" class="btn btn-info" id="device-{{this}}-0" type=button value="Ping" onclick="{ ws.send('{{this}}:0')}"> 
+					<input type="button" class="btn btn-info" id="device-{{this}}-1" type=button value="Measure" onclick="{ ws.send('{{this}}:1')}"> 
 				</li>		
 			{{/each}}
 			</ul>	
