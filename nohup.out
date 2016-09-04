@@ -2430,3 +2430,21 @@ send command: cmd_key=rlAstla9:0
 sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Panel >>  device #AH8hTYISEwkv5j9KPJw4lq4xh0owKyYWcommand # 0
 received: Ping OK!
 sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Device &lt;&ltPing OK!
+received: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Panel >>  device #AH8hTYISEwkv5j9KPJw4lq4xh0owKyYWcommand # 1
+received: Temperature: 26.125000
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Device &lt;&ltTemperature: 26.125000
+received: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Panel >>  device #AH8hTYISEwkv5j9KPJw4lq4xh0owKyYWcommand # 1
+received: Temperature: 26.125000
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Device &lt;&ltTemperature: 26.125000
+received: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Panel >>  device #AH8hTYISEwkv5j9KPJw4lq4xh0owKyYWcommand # 0
+received: Ping OK!
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Device &lt;&ltPing OK!

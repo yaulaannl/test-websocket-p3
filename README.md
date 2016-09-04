@@ -1,14 +1,14 @@
 # Node.js Websocket Test
 
-Alan's hack:
-Phase1: make it work on AWS
-Phase2: make the device talks back
+Alan's hack:  
+Phase1: make it work on AWS  
+Phase2: make the device talks back  
 Phase3: add authorization. Separate control webpage and devices.  
 
 # Sources
 
-Modified from https://github.com/hpssjellis/Particle-Spark-Core-Photon-Websocket-Hack 
-Originally a tiny demo using the [einaros/ws](http://einaros.github.io/ws/) WebSockets implementation.
+Modified from https://github.com/hpssjellis/Particle-Spark-Core-Photon-Websocket-Hack   
+Originally a tiny demo using the [einaros/ws](http://einaros.github.io/ws/) WebSockets implementation.  
 
 # Running Locally
 
