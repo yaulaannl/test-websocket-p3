@@ -5,7 +5,7 @@ var ws = new WebSocket(host);
 
 //receiving messages
 ws.onmessage = function (event) {
-    document.getElementById('raw-responses').innerHTML += event.data + '<br>';
+    $('#raw-responses').prepend(event.data + '<br>');
 };
 
 ws.onconnection = function (event) {

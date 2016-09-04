@@ -219,3 +219,1750 @@ removing panel id: BQasoYwJ0NzOnHN8JyA4SxQIz2XSkgwV
 panels list update: [object Object]
 websocket connection open to device: panel
 connected panel id: Fv0ZgwAVvRlS0nxJfqXxACggfrefLFZv
+websocket connection close
+removing device id: lbjIRNCDKQVAYG48KeW5Ed6LIfBI3bYV
+websocket connection close
+removing panel id: Fv0ZgwAVvRlS0nxJfqXxACggfrefLFZv
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: W984ucSmiEMzEc8XGdsIabOGtFemmfQW
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: W984ucSmiEMzEc8XGdsIabOGtFemmfQW
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: ZWWWalrm8ypOBS6bvMmzaLW4ZHEUJGSo
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: OvOxSDjSCIk3qU88cZdeVlXEbrIJcM7M
+websocket connection close
+removing panel id: ZWWWalrm8ypOBS6bvMmzaLW4ZHEUJGSo
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: C4VgVMNgmcgCYhkqZerJ24ymUKhaVzdZ
+websocket connection close
+removing panel id: OvOxSDjSCIk3qU88cZdeVlXEbrIJcM7M
+panels list update: [object Object]
+websocket connection close
+removing panel id: C4VgVMNgmcgCYhkqZerJ24ymUKhaVzdZ
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: D1aDsm71gt68Qy7c8SOFTOcJRcO4Jsur
+websocket connection close
+removing panel id: D1aDsm71gt68Qy7c8SOFTOcJRcO4Jsur
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: TmDDk8D0IBdDjjn4JODEU81ygqtd0Y5D
+websocket connection close
+removing panel id: TmDDk8D0IBdDjjn4JODEU81ygqtd0Y5D
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: ETmiHqSGgbSfEuT5winsqdSN52uIpsaa
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: ETmiHqSGgbSfEuT5winsqdSN52uIpsaa
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: kCAbCPqWfn26QBc0cgD7jPxCmyN2fXIl
+websocket connection open to device: device
+connected device id: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8
+test device key: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8
+websocket connection close
+removing panel id: kCAbCPqWfn26QBc0cgD7jPxCmyN2fXIl
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: KcIxM02hAP3nQ0j6R98jJC74YIr4VEdK
+received: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: KcIxM02hAP3nQ0j6R98jJC74YIr4VEdK , data: Panel #KcIxM02hAP3nQ0j6R98jJC74YIr4VEdK sends to device #XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+received: Command 0 executed OK!
+sent to client with key: KcIxM02hAP3nQ0j6R98jJC74YIr4VEdK , data: Command 0 executed OK!
+websocket connection open to device: device
+connected device id: jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+test device key: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8,jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8,jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+websocket connection close
+removing panel id: KcIxM02hAP3nQ0j6R98jJC74YIr4VEdK
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI
+received: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI , data: Panel #rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI sends to device #XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+websocket connection close
+removing device id: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8
+received: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+sent to client with key: rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI , data: Device #XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0 not found!.
+received: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+sent to client with key: rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI , data: Device #XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0 not found!.
+received: XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0
+sent to client with key: rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI , data: Device #XSCFgMZGfEUPVTuCoC2evyzz8AdmxtP8:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+websocket connection close
+removing panel id: rGX1sxRa2XKrj2IZVPktS42fr4d8Z0mI
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+received: Ping OK!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Ping OK!
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: Temperature: 26.812500
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 26.812500
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: ERROR in Measurement!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: ERROR in Measurement!
+received: Temperature: 0.000000
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 0.000000
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: Temperature: 30.375000
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 30.375000
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: ERROR in Measurement!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: ERROR in Measurement!
+received: Temperature: 0.000000
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 0.000000
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: Temperature: 31.937500
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 31.937500
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: ERROR in Measurement!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: ERROR in Measurement!
+received: Temperature: 0.000000
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 0.000000
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: Temperature: 31.312500
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 31.312500
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+received: Ping OK!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Ping OK!
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: ERROR in Measurement!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: ERROR in Measurement!
+received: Temperature: 0.000000
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 0.000000
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: Temperature: 28.812500
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 28.812500
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+received: Ping OK!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Ping OK!
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Panel #tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: ERROR in Measurement!
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: ERROR in Measurement!
+received: Temperature: 0.000000
+sent to client with key: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW , data: Temperature: 0.000000
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+websocket connection close
+removing panel id: tNeiyfwaypgYWtfkic4v4BAQuqpcdVBW
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: ZJQFYOnACiBY6iafVLNYUz1ARokj8AIW
+websocket connection close
+removing panel id: ZJQFYOnACiBY6iafVLNYUz1ARokj8AIW
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+websocket connection open to device: panel
+connected panel id: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: Panel #BQ00UzqIXMOvS1snF56wa9OzjKw7LelS sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+received: Ping OK!
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: Ping OK!
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: Panel #BQ00UzqIXMOvS1snF56wa9OzjKw7LelS sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: Temperature: 27.187500
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: Temperature: 27.187500
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: Panel #BQ00UzqIXMOvS1snF56wa9OzjKw7LelS sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:1
+received: ERROR in Measurement!
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: ERROR in Measurement!
+received: Temperature: 0.000000
+sent to client with key: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS , data: Temperature: 0.000000
+websocket connection open to device: device
+connected device id: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv
+test device key: jK0DpCKKesqU87g4hzK0kbqbO3revjj5,BeTz10jqWfSM0Igug0Sc0olequ6CuxEv
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:jK0DpCKKesqU87g4hzK0kbqbO3revjj5,BeTz10jqWfSM0Igug0Sc0olequ6CuxEv
+websocket connection close
+removing panel id: BQ00UzqIXMOvS1snF56wa9OzjKw7LelS
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: AqI8C6DFLqDWsPWb54KbpiN37Or3z3Qk
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: AqI8C6DFLqDWsPWb54KbpiN37Or3z3Qk , data: Panel #AqI8C6DFLqDWsPWb54KbpiN37Or3z3Qk sends to device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+websocket connection close
+removing device id: jK0DpCKKesqU87g4hzK0kbqbO3revjj5
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+sent to client with key: AqI8C6DFLqDWsPWb54KbpiN37Or3z3Qk , data: Device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0 not found!.
+received: jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0
+sent to client with key: AqI8C6DFLqDWsPWb54KbpiN37Or3z3Qk , data: Device #jK0DpCKKesqU87g4hzK0kbqbO3revjj5:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv
+websocket connection close
+removing panel id: AqI8C6DFLqDWsPWb54KbpiN37Or3z3Qk
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: nFENOCz6sNpAYRcorHM4UUedyv833wHg
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: Temperature: 27.000000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 27.000000
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: Temperature: 26.937500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.937500
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: ERROR in Measurement!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: ERROR in Measurement!
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: Temperature: 26.937500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.937500
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: Temperature: 26.937500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.937500
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: Temperature: 26.937500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.937500
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:1
+received: Temperature: 26.937500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.937500
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #nFENOCz6sNpAYRcorHM4UUedyv833wHg sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+websocket connection open to device: device
+connected device id: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze
+test device key: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,v5OwkzV0AP2HOzSINuLbUP5Izel7wFze
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,v5OwkzV0AP2HOzSINuLbUP5Izel7wFze
+websocket connection open to device: panel
+connected panel id: VDlFPclAGYYRudEwLam2jTvhr4Srmf06
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Ping OK!
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: VDlFPclAGYYRudEwLam2jTvhr4Srmf06 , data: Panel #VDlFPclAGYYRudEwLam2jTvhr4Srmf06 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,v5OwkzV0AP2HOzSINuLbUP5Izel7wFze
+websocket connection close
+removing panel id: VDlFPclAGYYRudEwLam2jTvhr4Srmf06
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Ping OK!
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Ping OK!
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+received: Temperature: 26.625000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.625000
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Temperature: 26.625000
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+received: Temperature: 26.625000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.625000
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Temperature: 26.625000
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Panel #8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:1
+received: Temperature: 26.625000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.625000
+sent to client with key: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7 , data: Temperature: 26.625000
+websocket connection open to device: device
+connected device id: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm
+test device key: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,v5OwkzV0AP2HOzSINuLbUP5Izel7wFze,w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,v5OwkzV0AP2HOzSINuLbUP5Izel7wFze,w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm
+websocket connection close
+removing panel id: 8vEdOGtqlTRpvywd80AV37aq5p9gB7b7
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 1JP2pl2WKkgdn5oqtREGqSnFlhSttTM7
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #1JP2pl2WKkgdn5oqtREGqSnFlhSttTM7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: 1JP2pl2WKkgdn5oqtREGqSnFlhSttTM7 , data: Panel #1JP2pl2WKkgdn5oqtREGqSnFlhSttTM7 sends to device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+websocket connection close
+removing device id: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze
+received: v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0 not found!.
+sent to client with key: 1JP2pl2WKkgdn5oqtREGqSnFlhSttTM7 , data: Device #v5OwkzV0AP2HOzSINuLbUP5Izel7wFze:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm
+websocket connection close
+removing panel id: 1JP2pl2WKkgdn5oqtREGqSnFlhSttTM7
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Ping OK!
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: Temperature: 26.562500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.562500
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Temperature: 26.562500
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: Temperature: 26.625000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.625000
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Temperature: 26.625000
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Panel #8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:1
+received: Temperature: 26.562500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.562500
+sent to client with key: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N , data: Temperature: 26.562500
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm
+websocket connection close
+removing panel id: 8Ac4B3xFu5j1a59brmSzp6Qu7e6zut9N
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 4IecRNwm5iM4V20qyA4Na6cTNUDIzfEA
+websocket connection open to device: device
+connected device id: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q
+test device key: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm,R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm,R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q
+websocket connection close
+removing panel id: 4IecRNwm5iM4V20qyA4Na6cTNUDIzfEA
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 , data: Panel #tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+sent to client with key: tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 , data: Panel #tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 sends to device #BeTz10jqWfSM0Igug0Sc0olequ6CuxEv:0
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+sent to client with key: tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 , data: Panel #tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 sends to device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+websocket connection close
+removing device id: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm
+received: w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0 not found!.
+sent to client with key: tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6 , data: Device #w78PxGA7TBFTm3B7CnhAZrldKeBMqFLm:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:BeTz10jqWfSM0Igug0Sc0olequ6CuxEv,R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q
+websocket connection close
+removing panel id: tXyi8C0QoGFckVJECVyRgKd83Kmb7Xm6
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:0
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:0
+received: Ping OK!
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Ping OK!
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Ping OK!
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+received: Temperature: 26.562500
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.562500
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Temperature: 26.562500
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+received: Temperature: 26.500000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.500000
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Temperature: 26.500000
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+received: Temperature: 26.500000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.500000
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Temperature: 26.500000
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Panel #ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:1
+received: Temperature: 26.500000
+sent to client with key: nFENOCz6sNpAYRcorHM4UUedyv833wHg , data: Temperature: 26.500000
+sent to client with key: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E , data: Temperature: 26.500000
+websocket connection close
+removing panel id: nFENOCz6sNpAYRcorHM4UUedyv833wHg
+panels list update: [object Object]
+websocket connection close
+removing device id: BeTz10jqWfSM0Igug0Sc0olequ6CuxEv
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q
+websocket connection close
+removing panel id: ikdJepJqKKXOdVKmJGbEjRyc7hpXBG0E
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: kXqQm2tp04XEb9OI9yJwqpdAIITOt00I
+received: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: kXqQm2tp04XEb9OI9yJwqpdAIITOt00I , data: Panel #kXqQm2tp04XEb9OI9yJwqpdAIITOt00I sends to device #R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q:0
+websocket connection close
+removing device id: R7kNK6ltJfuuyoPCLXNTRzJAHdhTQ75Q
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: kXqQm2tp04XEb9OI9yJwqpdAIITOt00I
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: A1bP5OFqfapODj8vBL9xsEwJz0tvO6bI
+websocket connection open to device: device
+connected device id: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V
+test device key: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:453Acy7PA1L4GbqjPNEWwwwovpWycB6V
+websocket connection close
+removing panel id: A1bP5OFqfapODj8vBL9xsEwJz0tvO6bI
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+received: Ping OK!
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Ping OK!
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: Temperature: 26.500000
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Temperature: 26.500000
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: Temperature: 26.500000
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Temperature: 26.500000
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: Temperature: 26.500000
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Temperature: 26.500000
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Panel #k4ir7r1nvSe0TydcFwY0McxDM9yHmepc sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:1
+received: Temperature: 26.500000
+sent to client with key: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc , data: Temperature: 26.500000
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:453Acy7PA1L4GbqjPNEWwwwovpWycB6V
+websocket connection close
+removing panel id: k4ir7r1nvSe0TydcFwY0McxDM9yHmepc
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: UXtqC0thmznKx06cf1EO07MAL6TW2oBS
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: UXtqC0thmznKx06cf1EO07MAL6TW2oBS , data: Panel #UXtqC0thmznKx06cf1EO07MAL6TW2oBS sends to device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+websocket connection close
+removing device id: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+sent to client with key: UXtqC0thmznKx06cf1EO07MAL6TW2oBS , data: Device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0 not found!.
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+sent to client with key: UXtqC0thmznKx06cf1EO07MAL6TW2oBS , data: Device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0 not found!.
+received: 453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0
+sent to client with key: UXtqC0thmznKx06cf1EO07MAL6TW2oBS , data: Device #453Acy7PA1L4GbqjPNEWwwwovpWycB6V:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: UXtqC0thmznKx06cf1EO07MAL6TW2oBS
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 41CbKOLOhS7A0h96ZUY7LCS3j9pWOLSZ
+websocket connection open to device: device
+connected device id: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN
+test device key: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN
+websocket connection close
+removing panel id: 41CbKOLOhS7A0h96ZUY7LCS3j9pWOLSZ
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi
+received: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi , data: Panel #CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi sends to device #tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:1
+received: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi , data: Panel #CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi sends to device #tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:1
+received: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi , data: Panel #CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi sends to device #tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:1
+received: Temperature: 26.500000
+sent to client with key: CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi , data: Temperature: 26.500000
+websocket connection open to device: device
+connected device id: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B
+test device key: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN,FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN,FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B
+websocket connection close
+removing panel id: CKIQbGF9v7Hl41jAqxK8mpa5fbRo3fLi
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 1dpaevYoQbIaHvlQKHx3dbOrCT0GK72G
+received: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: 1dpaevYoQbIaHvlQKHx3dbOrCT0GK72G , data: Panel #1dpaevYoQbIaHvlQKHx3dbOrCT0GK72G sends to device #tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:0
+websocket connection close
+removing device id: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN
+received: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:0
+sent to client with key: 1dpaevYoQbIaHvlQKHx3dbOrCT0GK72G , data: Device #tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:0 not found!.
+received: tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:0
+sent to client with key: 1dpaevYoQbIaHvlQKHx3dbOrCT0GK72G , data: Device #tSW94rMfTNL5GOfolUv2CiMD4nSaH0UN:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B
+websocket connection close
+removing panel id: 1dpaevYoQbIaHvlQKHx3dbOrCT0GK72G
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+received: Ping OK!
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Ping OK!
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: Temperature: 26.500000
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Temperature: 26.500000
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: Temperature: 26.437500
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Temperature: 26.437500
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: Temperature: 26.500000
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Temperature: 26.500000
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Panel #XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:1
+received: Temperature: 26.500000
+sent to client with key: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP , data: Temperature: 26.500000
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B
+websocket connection close
+removing panel id: XpvE8BJdKApRNRXdFE0NDvsFvBoAgFxP
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: dFPwFaC3d9ugViEbCCzO55avNlDxqQqM
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: dFPwFaC3d9ugViEbCCzO55avNlDxqQqM , data: Panel #dFPwFaC3d9ugViEbCCzO55avNlDxqQqM sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: dFPwFaC3d9ugViEbCCzO55avNlDxqQqM , data: Panel #dFPwFaC3d9ugViEbCCzO55avNlDxqQqM sends to device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+websocket connection close
+removing device id: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+sent to client with key: dFPwFaC3d9ugViEbCCzO55avNlDxqQqM , data: Device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0 not found!.
+received: FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0
+sent to client with key: dFPwFaC3d9ugViEbCCzO55avNlDxqQqM , data: Device #FBzJYmnDx4Gco3zvIqoIKSGMmMR6i02B:0 not found!.
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: dFPwFaC3d9ugViEbCCzO55avNlDxqQqM
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: f1OJDv2u2VQrmRgnz8jAjti6eR3iHwYM
+websocket connection open to device: device
+connected device id: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+test device key: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: f1OJDv2u2VQrmRgnz8jAjti6eR3iHwYM
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: ERROR in Measurement!
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: ERROR in Measurement!
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: ERROR in Measurement!
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: ERROR in Measurement!
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Panel #aAbxZQe206bKZw9I3RaepVZKQqgsjcOs sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs , data: Temperature: 26.437500
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: aAbxZQe206bKZw9I3RaepVZKQqgsjcOs
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.500000
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Temperature: 26.500000
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Panel #ghtvT0BWKa9wg6IR38CpPOUBemTFThvw sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw , data: Temperature: 26.437500
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: ghtvT0BWKa9wg6IR38CpPOUBemTFThvw
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Panel #fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Panel #fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Temperature: 26.437500
+received: Temperature: 26.437500
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Panel #fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Panel #fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Panel #fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: Panel #fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: ERROR in Measurement!
+sent to client with key: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu , data: ERROR in Measurement!
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: fhlWUtfEYqC7R1cBWdhyjnrqI8AcQYSu
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Panel #kV3B6vI21apeewAJzYsk1x3uEMHiNPYH sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH , data: Temperature: 26.437500
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: kV3B6vI21apeewAJzYsk1x3uEMHiNPYH
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+received: Ping OK!
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Ping OK!
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Temperature: 26.437500
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: Temperature: 26.437500
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Temperature: 26.437500
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection open to device: panel
+connected panel id: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+sent to client with key: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+sent to client with key: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+sent to client with key: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:0
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+sent to client with key: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+sent to client with key: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+received: XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+send command: cmd_key=rlAstla9:1
+
+sent to client with key: g6xMmZrnWQMUCPFtmPRUKaXluUyQAHg5 , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+sent to client with key: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ , data: Panel #3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ sends to device #XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR:1
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: 3FOFoMDLNYcKzG6Fa9h6G9gM3dTQPycJ
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: lJpaIXjt9OnPQxgTWU79INg5MTJpDPQo
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1135:5)
+    at Object.<anonymous> (/var/www/photon/webocket-hack-p3/server.js:167:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 8
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection open to device: panel
+connected panel id: 2fs9bjVYtFtN9fZ7JMt7rvbFTBFk0uj8
+websocket connection close
+removing panel id: 2fs9bjVYtFtN9fZ7JMt7rvbFTBFk0uj8
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection open to device: panel
+connected panel id: xlnllcWIw8cZvA4JEmavlAZTAZWXsnIP
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: xlnllcWIw8cZvA4JEmavlAZTAZWXsnIP
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: rJ7FxGxN8pMWt6Soy8mDQd1FM1ytdX5w
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: rJ7FxGxN8pMWt6Soy8mDQd1FM1ytdX5w
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: 3IzkczKm9IQ41CmVf66KGtfIMiQDpMXz
+websocket connection close
+removing panel id: 3IzkczKm9IQ41CmVf66KGtfIMiQDpMXz
+panels list update: [object Object]
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection open to device: panel
+connected panel id: pAZzr61QR8WNbDyL8gjMu9eimeWSV8wf
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:XLlkDX1CUOjFyM9MF74gg0NHlUgFExTR
+websocket connection close
+removing panel id: pAZzr61QR8WNbDyL8gjMu9eimeWSV8wf
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: znrO3aUZv6ErWMc7JZxgy2Bgcv87cZQk
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: IkhL7V3TR254kjiewimreS4r4c7UtQJ2
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: cwZ0hCVPbUftX6EiHtUHXgmOYf4tVMhk
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: riunjWlGxVjEP5ufGRAcTZHBHrS3lU3b
+websocket connection open to device: device
+connected device id: 0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I
+test device key: 0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I
+websocket connection close
+removing panel id: riunjWlGxVjEP5ufGRAcTZHBHrS3lU3b
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE
+received: 0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE , data: Panel #JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE sends to device #0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I:0
+received: Ping OK!
+sent to client with key: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE , data: Ping OK!
+received: 0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE , data: Panel #JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE sends to device #0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I:0
+received: Ping OK!
+sent to client with key: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE , data: Ping OK!
