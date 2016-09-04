@@ -1966,3 +1966,467 @@ send command: cmd_key=rlAstla9:0
 sent to client with key: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE , data: Panel #JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE sends to device #0DFAF2JAgsRBK9xHW8I60iAVu99DxD7I:0
 received: Ping OK!
 sent to client with key: JhdxkPOjdLCjFCxUJ1Hpp2i8NqfJHozE , data: Ping OK!
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection open to device: panel
+connected panel id: QRDhQyi8nTVZwZMf91XmPH7O7cr4Z6Bt
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:
+websocket connection close
+removing panel id: QRDhQyi8nTVZwZMf91XmPH7O7cr4Z6Bt
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: oAPruICGcbqFWz5bOM5PLFiMr1zONAmc
+websocket connection open to device: device
+connected device id: w1PcCveBwzMxtNxv815b7RhSKIaQN6lv
+test device key: w1PcCveBwzMxtNxv815b7RhSKIaQN6lv
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:w1PcCveBwzMxtNxv815b7RhSKIaQN6lv
+websocket connection close
+removing panel id: oAPruICGcbqFWz5bOM5PLFiMr1zONAmc
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: FTa4NPTK12XKZUHydro3iI2cRyBadnQh
+received: w1PcCveBwzMxtNxv815b7RhSKIaQN6lv:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: FTa4NPTK12XKZUHydro3iI2cRyBadnQh , data: Panel FTa4NPTK12XKZUHydro3iI2cRyBadnQh>>  device #w1PcCveBwzMxtNxv815b7RhSKIaQN6lvcommand # 0
+received: Ping OK!
+sent to client with key: FTa4NPTK12XKZUHydro3iI2cRyBadnQh , data: Device w1PcCveBwzMxtNxv815b7RhSKIaQN6lv>>Ping OK!
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+websocket connection open to device: device
+connected device id: pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK
+test device key: pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK
+websocket connection open to device: panel
+connected panel id: cMNGLIuo8ArlGlL6xW7qLsyWUHUFEXp9
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+websocket connection close
+removing panel id: cMNGLIuo8ArlGlL6xW7qLsyWUHUFEXp9
+panels list update: [object Object]
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK
+websocket connection open to device: panel
+connected panel id: wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y
+received: pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y , data: Panel wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y>>  device #pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTKcommand # 0
+received: pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y , data: Panel wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y>>  device #pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTKcommand # 0
+received: Ping OK!
+sent to client with key: wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y , data: Device pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK>>Ping OK!
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK
+websocket connection close
+removing panel id: wvp2hWnzdOXsvzrM7skK5X4h6i4eFM5y
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: RimVb0hdJjrpaBHQnPJqoE47PbyrkCY0
+received: pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: RimVb0hdJjrpaBHQnPJqoE47PbyrkCY0 , data: Panel RimVb0hdJjrpaBHQnPJqoE47PbyrkCY0>>  device #pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTKcommand # 0
+received: Ping OK!
+sent to client with key: RimVb0hdJjrpaBHQnPJqoE47PbyrkCY0 , data: Device pCJzPua2IHEzIkxcUxoUrXvMCwhcnwTK>>Ping OK!
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+websocket connection open to device: device
+connected device id: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw
+test device key: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw
+websocket connection open to device: panel
+connected panel id: VUb7OJm7Vs4JkBCk4xYYiv7epmga4oXu
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw
+websocket connection close
+removing panel id: VUb7OJm7Vs4JkBCk4xYYiv7epmga4oXu
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu
+received: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu , data: Panel >>  device #8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcwcommand # 0
+received: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu , data: Panel >>  device #8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcwcommand # 0
+received: Ping OK!
+sent to client with key: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu , data: Device <<Ping OK!
+received: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu , data: Panel >>  device #8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcwcommand # 0
+received: Ping OK!
+sent to client with key: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu , data: Device <<Ping OK!
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw
+websocket connection close
+removing panel id: vxclEtWI7SiMJVOmj6TMqK294Vm4rEBu
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: AQJ6tir2hDzgGzzVme6BX3Lr3V1SoIID
+received: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: AQJ6tir2hDzgGzzVme6BX3Lr3V1SoIID , data: Panel >>  device #8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcwcommand # 0
+received: Ping OK!
+sent to client with key: AQJ6tir2hDzgGzzVme6BX3Lr3V1SoIID , data: Device <<Ping OK!
+received: 8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcw:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: AQJ6tir2hDzgGzzVme6BX3Lr3V1SoIID , data: Panel >>  device #8Kmh0ND214cENWHRJ1QsfOsp2lbEdbcwcommand # 0
+received: Ping OK!
+sent to client with key: AQJ6tir2hDzgGzzVme6BX3Lr3V1SoIID , data: Device <<Ping OK!
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+websocket connection open to device: device
+connected device id: VS1aXJOesleEkhMX8R8eULOZVVAfJbkU
+test device key: VS1aXJOesleEkhMX8R8eULOZVVAfJbkU
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:VS1aXJOesleEkhMX8R8eULOZVVAfJbkU
+websocket connection open to device: panel
+connected panel id: nKHuJ0CLWyYuyfePwA8Hg5hSmcfIR97w
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:VS1aXJOesleEkhMX8R8eULOZVVAfJbkU
+websocket connection close
+removing panel id: nKHuJ0CLWyYuyfePwA8Hg5hSmcfIR97w
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: QG26H1Guxr9S68POP9INJijfPlozNkC9
+received: VS1aXJOesleEkhMX8R8eULOZVVAfJbkU:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: QG26H1Guxr9S68POP9INJijfPlozNkC9 , data: Panel >>  device #VS1aXJOesleEkhMX8R8eULOZVVAfJbkUcommand # 0
+received: VS1aXJOesleEkhMX8R8eULOZVVAfJbkU:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: QG26H1Guxr9S68POP9INJijfPlozNkC9 , data: Panel >>  device #VS1aXJOesleEkhMX8R8eULOZVVAfJbkUcommand # 0
+received: Ping OK!
+sent to client with key: QG26H1Guxr9S68POP9INJijfPlozNkC9 , data: Device <<Ping OK!
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+websocket connection open to device: device
+connected device id: 6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gk
+test device key: 6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gk
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gk
+websocket connection open to device: panel
+connected panel id: tgNWifZlKSQrqYgidhnL2IFL1h4uZ3ob
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gk
+websocket connection close
+removing panel id: tgNWifZlKSQrqYgidhnL2IFL1h4uZ3ob
+panels list update: [object Object]
+websocket connection open to device: panel
+connected panel id: Adn8zxEoNnB7WpmqrQCR6UxkdoBqVcDG
+received: 6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gk:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: Adn8zxEoNnB7WpmqrQCR6UxkdoBqVcDG , data: Panel >>  device #6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gkcommand # 0
+received: 6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gk:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: Adn8zxEoNnB7WpmqrQCR6UxkdoBqVcDG , data: Panel >>  device #6Y3AakQZg5dd2pqZiSSB6PIYsF85H7gkcommand # 0
+received: Ping OK!
+sent to client with key: Adn8zxEoNnB7WpmqrQCR6UxkdoBqVcDG , data: Device <<Ping OK!
+
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "node" "/usr/local/bin/npm" "start"
+npm ERR! node v0.10.25
+npm ERR! npm  v3.10.5
+npm ERR! code ELIFECYCLE
+npm ERR! wstest-p3@0.0.3 start: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the wstest-p3@0.0.3 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wstest-p3 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wstest-p3
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wstest-p3
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/photon/webocket-hack-p3/npm-debug.log
+
+> wstest-p3@0.0.3 start /var/www/photon/webocket-hack-p3
+> node server.js
+
+http server listening on 8081
+websocket server created
+websocket connection open to device: device
+connected device id: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW
+test device key: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+logging in
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: { user: 'senpai428' } }
+is authenticated
+test devices at routes/index.js:AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW
+websocket connection open to device: panel
+connected panel id: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI
+received: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Panel >>  device #AH8hTYISEwkv5j9KPJw4lq4xh0owKyYWcommand # 0
+received: AH8hTYISEwkv5j9KPJw4lq4xh0owKyYW:0
+send command: cmd_key=rlAstla9:0
+
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Panel >>  device #AH8hTYISEwkv5j9KPJw4lq4xh0owKyYWcommand # 0
+received: Ping OK!
+sent to client with key: 7gA8M7iz12PLXrj3f9xTJJvIxh6kKcbI , data: Device &lt;&ltPing OK!

@@ -250,16 +250,17 @@ wss.on("connection", function(ws) {
 			var dCommand = cmdMeasure + ':' + cmdNo + "\r\n";
 		       	devices[myDev].send(dCommand);
 			console.log("send command: " + dCommand);
-			var echo = 'Panel #' + myId + " sends to device #" + message;
+			var echo = 'Panel ' + ">>  device #" + myDev + "command # " + cmdNo ;
 		}
 		else{
-			var echo = "Device #" + message +  " not found!."; 
+			var echo = "Panel "  + "&gt;gt;  device #" +  myDev +  " not found!."; 
 		}
 		wss.myBroadcast(echo,panels);
       }
 
       if(lastpath === 'device'){
-		wss.myBroadcast(message,panels);
+		var echo = 'Device ' + "&lt;&lt" +  message ;
+		wss.myBroadcast(echo,panels);
 	      
       }
   });  

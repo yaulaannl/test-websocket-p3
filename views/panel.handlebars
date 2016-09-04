@@ -5,12 +5,19 @@ var ws = new WebSocket(host);
 
 //receiving messages
 ws.onmessage = function (event) {
-    $('#raw-responses').prepend(event.data + '<br>');
+    $('#raw-responses').prepend('[' + getFormattedDate() + ']'  + event.data + '<br>');
 };
 
 ws.onconnection = function (event) {
     ws.send('something');
 };
+
+function getFormattedDate() {
+    var date = new Date();
+    var str = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +  date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+
+    return str;
+}
 
 </script>
 
